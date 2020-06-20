@@ -1,0 +1,49 @@
+#manager-main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#manager-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+    height: 50px;
+}
+
+.manager-btn {
+    background-color: var(--timberwolf);
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.manager-btn:active {
+    border-bottom: 1px solid var(--chrome-yellow);
+}
+
+#add-new-one {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--jet);
+}
+
+#plus {
+    color: white;
+    background-color: var(--chrome-yellow);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+

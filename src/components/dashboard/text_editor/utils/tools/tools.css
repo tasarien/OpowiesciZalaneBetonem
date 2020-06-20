@@ -1,0 +1,24 @@
+.tools {
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    width: fit-content;
+    display: flex;
+}
+
+.tool-btn {
+    font-size: 10px;
+    width: 2em;
+    height: 2em;
+    background-color: var(--timberwolf);
+    border-radius: 2px;
+    border: 1px solid var(--jet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tool-btn:hover {
+    background-color: var(--jet);
+    color: white;
+}

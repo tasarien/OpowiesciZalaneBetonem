@@ -1,0 +1,8 @@
+.header {
+    color: var(--timberwolf);
+    font-family: var(--header-font);
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 10px;
+}

@@ -1,0 +1,67 @@
+:root {
+  --timberwolf: #CFDBD5;
+  --pale-spring: #E4EDAE;
+  --chrome-yellow: #FFAB00;
+  --eerie-black: #242423;
+  --jet: #333533;
+  --header-font: 'Akronim', cursive;
+  --title-font: 'Alfa Slab One', cursive;
+  --main-font: 'Asap', sans-serif;
+}
+
+.App {
+  text-align: center;
+  width: 85vw;
+  background-color: var(--timberwolf);
+  margin: 30px 0px 30px 0px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 90vw;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.neomorph {
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 13px rgba(241, 255, 218, 0.952), 
+  inset 4px 4px 8px rgba(209,217,230,0.2),
+  inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgb(110, 110, 110);
+  color: var(--jet)
+}
+
+.neomorph-btn {
+  cursor: pointer;
+}
+
+.neomorph-btn:hover {
+  box-shadow: 4px 2px 18px #bbcfda, -4px -4px 13px rgba(241, 255, 218, 0.952),
+  inset 6px 6px 16px rgba(209, 217, 230, 0.8),
+  inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  transform: translateY(2px);
+}
+
+.div-test {
+  padding: 20px;
+  height: 20px;
+  width: 40px;
+  margin: 50px;
+}
+
+h1 {
+  font-family: var(--header-font);
+  color: var(--eerie-black);
+}
+
+h2 {
+  font-family: var(--title-font);
+  color: var(--eerie-black);
+}
+

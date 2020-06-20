@@ -1,0 +1,21 @@
+.map {
+    background-color: var(--eerie-black);
+    z-index: 15;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    border: 5px solid var(--chrome-yellow);
+}
+
+.map-max {
+    height: 500px;
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: -50px;
+}
+
+.map-min {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: -50px;
+}

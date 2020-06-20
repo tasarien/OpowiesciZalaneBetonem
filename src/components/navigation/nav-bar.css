@@ -1,0 +1,12 @@
+.nav-bar {
+    transition: width .2s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-bar-max {
+    width: 250px;
+}
+
+.nav-bar-min {
+    width: 50px;
+}
